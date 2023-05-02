@@ -1,0 +1,83 @@
+/* Styling for App component */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for SearchBar component */
+  
+
+  
+  /* Styling for Pagination component */
+  .Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .Pagination ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Pagination li {
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  
+  .Pagination a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .Pagination a.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  /* Styling for Table component */
+  .Table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Table table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .Table th,
+  .Table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .Table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .Table img {
+    max-width: 100%;
+    height: auto;
+  }
+  
